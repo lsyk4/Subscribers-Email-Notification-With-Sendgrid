@@ -1,0 +1,68 @@
+.sen-form-container{
+
+}
+.sen-form-container form{
+  width: 100%;
+  height: 86px;
+  /*overflow-y: hidden;*/
+}
+.sen-form-container .inputscontainer{
+  background: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: rgba(0,0,0,0.5) 1px solid;
+  font-size: 16px;
+  height: 57px;
+}
+.sen-form-container form input{
+  width: 54%;
+  height: 48px;
+  background: #fff;
+  color: #000;
+  border: 0;
+  border-right: 0;
+  padding: 3px;
+  padding-left: 21px;
+  padding-right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: 0;
+  float: left;
+}
+
+.sen-form-container form input:active, .sen-form-container form input:focus{
+  background: #fff !important;
+}
+
+.sen-form-container form input::placeholder{
+  color: #000;
+}
+.sen-form-container form button{
+  width: 39%;
+  float: right;
+  height: 55px;
+  background: #2e68b0;
+  padding-top: 12px;
+  padding-bottom: 37.8px;
+  border: 0;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  line-height: 31px;
+  transition: background 0.2s;
+}
+
+.sen-form-container form button:hover{
+  background: #75a9e8;
+}
+.fine-print{
+  margin-top: 0;
+}
+
+@media (max-width:250px) {
+  .sen-form-container form button, .sen-form-container form input{
+    float: none;
+  }
+}
