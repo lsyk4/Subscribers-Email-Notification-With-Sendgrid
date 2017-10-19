@@ -7,6 +7,7 @@ NOTES:
 * The email template is just for demonstration. If you want to modify the email template, go to wp-content/plugins/SubscribersEmailNotificationWithSendgrid/emailtemplate.php and use the parameters
 on that file.
 * The email is sent only if 'post_status' == "publish",
+* You can use this shortcode [SubscribersEmailNotificationForm]
 * If you found any issue, please contact me to fix it.
 * Any help is welcome.
 
