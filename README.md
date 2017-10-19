@@ -1,4 +1,4 @@
-# Subscribers-Email-Notification-With-Sendgrid
+# Subscribers Email Notification With Sendgrid
 Send a email notification when publish a new post using sendgrid. This is a plugin thought and optimized for Wordpress VIP (It works too on normal Wordpress).  Tell me if you have any suggestion.
 
 NOTES:
