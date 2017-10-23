@@ -66,8 +66,8 @@ function sen_send_notification(){
     update_option("SubscribersEmailNotification_LastPostSent", $lastpostid);
   }elseif(get_option('SubscribersEmailNotification_LastPostSent') !== $lastpostid){
     $emailToArray = array();
-    require_once dirname(__FILE__).'/sendgrid-php.php';
-    require_once dirname(__FILE__).'/vendor/autoload.php';
+    require_once 'sendgrid-php.php';
+    require_once 'vendor/autoload.php';
     $wpb_all_query = new WP_Query(array('post_type'=>'sen_subscriber', 'post_status'=>'publish', 'posts_per_page'=>-1));
     if($wpb_all_query->have_posts()){
       while ( $wpb_all_query->have_posts() ){

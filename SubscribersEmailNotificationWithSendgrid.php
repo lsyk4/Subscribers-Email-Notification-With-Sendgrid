@@ -28,11 +28,11 @@
     );
   }
   add_action( 'init', 'create_post_type' );
-  require_once(dirname(__FILE__)."/metaboxes.php");
+  require_once("metaboxes.php");
 //Install
-require_once(dirname(__FILE__)."/emailtemplate.php");
-require_once(dirname(__FILE__)."/functions.php");
-require_once(dirname(__FILE__)."/OptionsPage.php");
+require_once("emailtemplate.php");
+require_once("functions.php");
+require_once("OptionsPage.php");
 
 function SubscribersEmailNotificationAssets($hook) {
     wp_enqueue_script("SubscribersEmailNotificationScript", "/wp-content/plugins/SubscribersEmailNotificationWithSendgrid/assets/js/script.js");
